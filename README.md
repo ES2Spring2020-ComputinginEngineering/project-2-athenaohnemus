@@ -1,13 +1,12 @@
-##Project 2
-#Athena Ohnemus
+Project 2
+Athena Ohnemus
 
 This project is based on an example and dataset from Data Science course developed at Berkeley (Data8.org).
 
-#Introduciton:
+Introduciton:
 This code takes an uploaded data set and analyzes it through a variety of classification techniques. There are three main files and five important graphs included in this analysis. The system is relatively easy to use. If you run the NearestNeighborClassifier you will get a graph of the data set with a larger point, which is the new data point being classified. The function will print the classification of that new point based on the nearest data point and the k nearest. Changing the k value will compare the classification of more closest points to the new one. If you run the KMeansClustering_driver you will get a graph of the final clusters and centroids. Each group will have a different color and the centroids will be larger than the other data points. Change the k-value in the global variables section to see a different number of clusters. If the k-value is 2 a list of percentages will be printed indicating the percent of false positives, false negatives, true positives, and true negatives when compared to the classification of the original data.
 
-#Summary of Files:
-
+Summary of Files:
 - NearestNeighborClassifier:
 This code includes both the functions and the main script to find the classification of a random new point based on the known classifications of a data set. It finds the classification by both looking at the closest point and by looking at the k-closest points. It then graphs the new data point on a graph of the data set for a visual of where in the data this point falls.
 
